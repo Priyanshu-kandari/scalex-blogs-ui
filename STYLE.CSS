@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Geist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+#header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+#logo {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #f8f7fc;
+}
+
+#nav-btn-section {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-btn {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f8f7fc;
+}
+
+#nav-option button {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+  background-color: #131313;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: #f8f7fc;
+}
+
+#main {
+  height: 88.5%;
+  width: 100%;
+  padding: 20px 70px;
+}
+
+#heading {
+  display: flex;
+  justify-content: center;
+  color: #f8f7fc;
+}
+
+#heading h1 {
+  font-size: 170px;
+  font-family: geist;
+  font-weight: 600;
+}
+
+#category-section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category {
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  background-color: #161616;
+  color: #f8f7fc;
+}
+
+.category:active {
+  background-color: #fd480a;
+}
+
+#guides-section{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.guides{
+  height: 450px;
+  width: 375px;
+  border-radius: 30px;
+  background-color: #0e0e0e;
+}
+
+.guide-img{
+  height: 265px;
+  width: 375px;
+  border-radius: 30px;
+  
+}
+
+#first-img{
+  background: url(https://assets.lummi.ai/assets/QmUStEZdVWFgYh6a9JxwhRnp8ycrmvZzwVS2n154RCaxBe?auto=format&w=640);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#second-img{
+  background: url(https://assets.lummi.ai/assets/QmaLJLztpwec5dhRriuXGij4xsiR4EvtPiLvKMi7b2u7qe?auto=format&w=640);
+  background-size: cover;
+  background-position: center;
+}
+
+#third-img{
+  background: url(https://framerusercontent.com/images/swiwWfM27XbuBMg97nrmtORk.png?scale-down-to=1024);
+  background-size: cover;
+  background-position: center;
+}
+
+.guide-details{
+  height: 185px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.mentioned-category span{
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #581d0a;
+  color: #d46e43;
+  padding: 8px 20px;
+  border-radius: 25px;
+}
+
+.guide-title{
+  font-size: 25px;
+  line-height: 28px;
+  color: #f8f7fc;
+  font-weight: 500;
+}
+
+.guide-date{
+  color: #676767;
+}
